@@ -27,7 +27,7 @@ public class AmazonLoginTest {
 
     @Test
     public void testLogin() {
-        driver.findElement(By.id("ap_email")).sendKeys("your-email@example.com");
+        driver.findElement(By.id("ap_email")).sendKeys("aksh.patel78@gmail.com");
         driver.findElement(By.id("continue")).click();
         driver.findElement(By.id("ap_password")).sendKeys("your-password");
         driver.findElement(By.id("signInSubmit")).click();
